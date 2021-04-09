@@ -33,11 +33,21 @@ Once you have Flutter installed, you will need to create a project, then associa
 - [Setting up a Firebase Project](https://firebase.google.com/docs/projects/learn-more)
 - [Associating the Flutter app with Firebase](https://firebase.google.com/docs/flutter/setup?platform=ios)
 
-**NOTE:** if you already have a Firebase project, use the second link above to setup your app with the proper keys.
+**NOTE:** if you already have a Firebase project, use the second link above to setup your app with the proper keys, especially `google-services.json`. Otherwise, the app will not connect to Firebase.
 
 ## Running the app
 
 Please follow Flutter tutorials like this [Write your first Flutter app](https://flutter.dev/docs/get-started/codelab) tutorial to learn how to debug, test, and run the app.
+
+## Code Documentation
+
+The Flutter codebase shared between IOS and Android is in the `lib/` directory. It is organized as follows: 
+
+- `main.dart`: entry point to the application
+- `page/`: pages displayed by the mobile application
+- `config/`: app configuration files
+- `utils/`: utilities
+- `widgets/`: custom widgets
 
 ## Android Release ## 
 
